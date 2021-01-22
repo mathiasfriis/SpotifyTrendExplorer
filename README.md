@@ -2,6 +2,9 @@
 Mathias Lønborg Friis &
 Gustav A. Gammelgaard
 
+## Disclaimer:
+This is a prototype and is not intented as a finished product. Crashes and errors may occur.
+
 ## Instructions:
 Download data set from: https://drive.google.com/file/d/1jAQymYly3hKaXWH7m6k1j00U0wxfuLSH/view?usp=sharing
 Create a new folder in the same folder as main.py called "data", and unzip the contents of the zip file here.
