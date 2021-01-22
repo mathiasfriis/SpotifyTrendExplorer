@@ -12,3 +12,6 @@ Create a new folder in the same folder as main.py called "data", and unzip the c
 Start the dashboard by running main.py 
 
 requirements.txt contains the required python packages
+
+## Demonstration Video
+https://vis-au.github.io/static/video/student_projects/davi2020/spotify.mp4
