@@ -1,0 +1,107 @@
+af_colordict_1_grey = {
+    'danceability': ('rgb(255,255,255)', 'rgb(196,196,196)'),
+    'valence': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+    'energy': ('rgb(255,255,255)', 'rgb(196,196,196)'),
+    'liveness': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+    'loudness': ('rgb(255,255,255)', 'rgb(196,196,196)'),
+    'speechiness': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+    'acousticness': ('rgb(255,255,255)', 'rgb(196,196,196)'),
+    'instrumentalness': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+    'tempo': ('rgb(255,255,255)', 'rgb(196,196,196)'),
+    'duration_ms': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+    'duration_s': ('rgb(255,255,255)', 'rgb(105,105,105)'),
+}
+
+af_colordict_white = {
+    'danceability': ('rgb(255,255,255)', 'rgb(166,206,227)'),
+    'valence': ('rgb(255,255,255)', 'rgb(31,120,180)',),
+    'energy': ('rgb(255,255,255)', 'rgb(178,223,138)'),
+    'liveness': ('rgb(255,255,255)', 'rgb(51,160,44)'),
+    'loudness': ('rgb(255,255,255)', 'rgb(251,154,153)'),
+    'speechiness': ('rgb(255,255,255)', 'rgb(227,26,28)'),
+    'acousticness': ('rgb(255,255,255)', 'rgb(253,191,111)'),
+    'instrumentalness': ('rgb(255,255,255)', 'rgb(255,127,0)'),
+    'tempo': ('rgb(255,255,255)', 'rgb(202,178,214)'),
+    'duration_ms': ('rgb(255,255,255)', 'rgb(106,61,154)'),
+    'duration_s': ('rgb(255,255,255)', 'rgb(106,61,154)'),
+}
+
+af_colordict_black = {
+    'danceability': ('rgb(0,0,0)', 'rgb(166,206,227)'),
+    'valence': ('rgb(0,0,)', 'rgb(31,120,180)',),
+    'energy': ('rgb(0,0,0)', 'rgb(178,223,138)'),
+    'liveness': ('rgb(0,0,0)', 'rgb(51,160,44)'),
+    'loudness': ('rgb(0,0,0)', 'rgb(251,154,153)'),
+    'speechiness': ('rgb(0,0,0)', 'rgb(227,26,28)'),
+    'acousticness': ('rgb(0,0,0)', 'rgb(253,191,111)'),
+    'instrumentalness': ('rgb(0,0,0)', 'rgb(255,127,0)'),
+    'tempo': ('rgb(0,0,0)', 'rgb(202,178,214)'),
+    'duration_ms': ('rgb(0,0,0)', 'rgb(106,61,154)'),
+    'duration_s': ('rgb(0,0,0)', 'rgb(106,61,154)'),
+}
+
+af_colordict_dark = {
+    'danceability': ('rgb(0,0,0)', 'rgb(255,136,0)'),
+    'valence': ('rgb(0,0,0)', 'rgb(0,255,34)',),
+    'energy': ('rgb(0,0,0)', 'rgb(0,204,255)'),
+    'liveness': ('rgb(0,0,0)', 'rgb(255,0,170)'),
+    'loudness': ('rgb(0,0,0)', 'rgb(238,255,0)'),
+    'speechiness': ('rgb(0,0,0)', 'rgb(0,255,170)'),
+    'acousticness': ('rgb(0,0,0)', 'rgb(0,68,255)'),
+    'instrumentalness': ('rgb(0,0,0)', 'rgb(204,0,255)'),
+    'tempo': ('rgb(0,0,0)', 'rgb(68,0,255)'),
+    'duration_ms': ('rgb(0,0,0)', 'rgb(255,0,34)'),
+    'duration_s': ('rgb(0,0,0)', 'rgb(255,0,34)'),
+}
+
+af_colordict_dark2 = {
+    # 'danceability': ('rgb(114,86,56)', 'rgb(255,136,0)'),
+    'danceability': ('rgb(114,86,56)', 'rgb(255,165,64)'),
+    # 'valence': ('rgb(56,114,64)', 'rgb(0,255,34)', ),
+    'valence': ('rgb(56,114,64)', 'rgb(64,255,88)',),
+    # 'energy': ('rgb(0,0,0)', 'rgb(0,204,255)'),
+    'energy': ('rgb(56,102,114)', 'rgb(64,217,255)'),
+    # 'liveness': ('rgb(0,0,0)', 'rgb(255,0,170)'),
+    'liveness': ('rgb(114,56,56)', 'rgb(255,64,193)'),
+    # 'loudness': ('rgb(0,0,0)', 'rgb(238,255,0)'),
+    'loudness': ('rgb(43,80,80)', 'rgb(241,255,64)'),
+    # 'speechiness': ('rgb(0,0,0)', 'rgb(0,255,170)'),
+    'speechiness': ('rgb(56,114,95)', 'rgb(64,255,193)'),
+    # 'acousticness': ('rgb(0,0,0)', 'rgb(0,68,255)'),
+    'acousticness': ('rgb(56,72,114)', 'rgb(64,117,255)'),
+    # 'instrumentalness': ('rgb(0,0,0)', 'rgb(204,0,255)'),
+    'instrumentalness': ('rgb(102,56,114)', 'rgb(217,64,255)'),
+    # 'tempo': ('rgb(0,0,0)', 'rgb(68,0,255)'),
+    'tempo': ('rgb(72,56,114)', 'rgb(117,64,255)'),
+    # 'duration_ms': ('rgb(0,0,0)', 'rgb(255,0,34)'),
+    'duration_ms': ('rgb(114,56,64)', 'rgb(255,64,88)'),
+    'duration_s': ('rgb(114,56,64)', 'rgb(255,64,88)'),
+}
+
+af_colordict_cb_set3 = {  # - 130 luminance (min 40 lum)
+    'danceability': ('rgb(21,55,49)', 'rgb(141,211,199)'),
+    'valence': ('rgb(157,157,0)', 'rgb(255,255,179)',),
+    'energy': ('rgb(50,45,83)', 'rgb(190,186,218)'),
+    'liveness': ('rgb(99,3,15)', 'rgb(251,128,114)'),
+    'loudness': ('rgb(16,35,48)', 'rgb(128,177,211)'),
+    'speechiness': ('rgb(73,39,1)', 'rgb(253,180,98)'),
+    'acousticness': ('rgb(50,70,15)', 'rgb(179,222,105)'),
+    'instrumentalness': ('rgb(170,11,90)', 'rgb(252,205,229)'),
+    'tempo': ('rgb(55,120,41)', 'rgb(204,235,197)'),
+    'duration_ms': ('rgb(78,40,79)', 'rgb(188,128,189)'),
+    'duration_s': ('rgb(78,40,79)', 'rgb(188,128,189)'),
+}
+
+af_colordict_cb_set3_grey = {  # - 130 luminance (min 40 lum)
+    'danceability': ('rgb(38,38,38)', 'rgb(176,176,176)'),
+    'valence': ('rgb(78,78,78)', 'rgb(216,216,216)',),
+    'energy': ('rgb(63,63,63)', 'rgb(201,201,201)'),
+    'liveness': ('rgb(51,51,51)', 'rgb(182,182,182)'),
+    'loudness': ('rgb(31,31,31)', 'rgb(170,170,170)'),
+    'speechiness': ('rgb(37,37,37)', 'rgb(175,175,175)'),
+    'acousticness': ('rgb(42,42,42)', 'rgb(163,163,163)'),
+    'instrumentalness': ('rgb(90,90,90)', 'rgb(288,288,288)'),
+    'tempo': ('rgb(80,80,80)', 'rgb(215,215,215)'),
+    'duration_ms': ('rgb(59,59,59)', 'rgb(158,158,158)'),
+    'duration_s': ('rgb(59,59,59)', 'rgb(158,158,158)'),
+}

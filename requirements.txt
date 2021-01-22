@@ -1,0 +1,15 @@
+scipy==1.3.1
+colorlover==0.3.0
+plotly==4.10.0
+dash_core_components==1.12.1
+numpy==1.16.5
+dash_treeview_antd==0.0.1
+requests==2.22.0
+spotipy==2.15.0
+dash_html_components==1.1.1
+pandas==0.25.1
+dash_table==4.10.1
+dash==1.16.2
+dash_bootstrap_components==0.10.7
+matplotlib==3.3.3
+viscm==0.9
